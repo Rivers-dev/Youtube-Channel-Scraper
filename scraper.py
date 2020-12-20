@@ -7,7 +7,7 @@ channels = [
     'https://www.youtube.com/c/JomaOppa/videos'
 ]
 
-driver = webdriver.Firefox(executable_path=r)
+driver = webdriver.Firefox(executable_path=rPATH)
 f = open('data.txt', 'a')
 driver.get(defaulturl)
 
